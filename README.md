@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+<h1 align="center">Basic youtube clone</h1>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About the project
 
-In the project directory, you can run:
+It is a basic project developed with React Js that allows you to create a new Stream Video with [Node-Media-Server](https://github.com/illuspas/Node-Media-Server)
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About the project
+This is a small project that queries and plays videos from the youtube Api.
 
-### `npm test`
+## Basic youtube clone 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - Just enter the term you want to search for, press enter and thanks to the Youtube API the first 5 videos of the response obtained will be shown.
 
-### `npm run build`
+ - By default it shows the query to videos of my favorite singer, feel free to listen to his music.
+ <div align="center">
+    <br>
+    <img src="https://raw.githubusercontent.com/raquellvazquez/youtube-basic-clone/master/src/assets/yotube1.PNG" alt="pic" width="auto" height="auto" />
+    <br>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
+ <div align="center">
+    <br>
+    <img src="https://raw.githubusercontent.com/raquellvazquez/youtube-basic-clone/master/src/assets/yotube2.PNG" alt="pic" width="auto" height="auto" />
+    <br>
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Streamy was developed using different technologies such as:
 
-### `npm run eject`
+- :bulb: **Create React App**: create-react-app is an official React CLI that allows you to create applications as quickly as possible, and with zero configurations.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- :gear: **Axios**: Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- :dart: **Youtube API** : With the YouTube Data API, you can add a variety of YouTube features to your application. Use the API to upload videos, manage playlists and subscriptions, update channel settings, and more.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Important
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed in the course: [Modern React with Redux](https://www.udemy.com/course/react-redux/), created by: Stephen Grider.
